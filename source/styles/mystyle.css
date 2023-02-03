@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Rubik&display=swap);
+body {
+    font-family: Rubik, serif;
+    background: linear-gradient(90deg, #05EADD 0%, #FFFFFF 100%, #000 100%);
+}
+.nav-link {
+    color: bisque;
+}
+ .navbar-nav .nav-link.active {
+    color: bisque;
+}
+.navbar-brand img {
+    width: 50px;
+}
+.navbar-toggler {
+    background-color: bisque;
+}
+.sidebar {
+    color: black;
+}
+.card {
+    color:black;
+}
+.card a {
+    text-decoration: none;
+    color: black;
+}
+.slide-text,
+.footer-text {
+    color: black;
+    margin: auto auto;
+}
+@media (max-width:755px) {
+.carousel-indicators {
+    display: none;
+}
+}
+footer {
+    background: linear-gradient(90deg, #05EADD 0%, #FFFFFF 100%, #000 100%);
+
+}
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
